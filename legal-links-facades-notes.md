@@ -120,3 +120,32 @@ Checko также показывает за 2025 год активы около 
 Промежуточный аналитический вывод: компания действует с 2012 года, имеет действующий статус и лицензию; после резкого снижения прибыли в 2021–2023 годах выручка восстановилась в 2024–2025 годах, но прибыль остаётся небольшой относительно оборота. Это финансовая характеристика, а не доказательство нарушения.
 
 Источники: https://bo.nalog.gov.ru/ ; https://checko.ru/company/oblastnoy-centr-dezinfekcii-1125074004868 ; https://www.tbank.ru/business/contractor/legal/1125074004868/ ; https://br.fas.gov.ru/ ; https://kad.arbitr.ru/ ; https://fedresurs.ru/ ; https://egrul.nalog.ru/
+
+## РНП ФАС, арбитраж и история ЕГРЮЛ
+
+### ООО «Областной центр дезинфекции» (ИНН 5021001371, ОГРН 1125074004868)
+
+Checko's current public snapshot shows 6 arbitration cases, all listed as claimant, with the latest dated 31 March 2021. The page shows no bankruptcy messages, one active license, and no negative reliability flags in the displayed summary. The same page counts 252 procurement records. These are aggregator summaries; individual case numbers and results should be checked in KAD.
+
+The same profile shows the current director and 100% founder as Кутьев Дмитрий Михайлович from 20 February 2012. Its connections page identifies two other legal entities where the same person is director and/or founder: ООО «ВЕЗУРЕКЛАМУ.РУ» at Suvorova 2I, chamber building, and ООО «ОЦД-МАРКЕТ» at Suvorova 2A, chamber building. This is a documented corporate connection, not evidence of wrongdoing or property ownership.
+
+Rusprofile's founder-history page exposes one current founder period beginning 06.06.2014 and continuing to the present; older identity fields are masked in the free view. The visible public profile does not provide a reliable complete list of all former founders/directors. Therefore the safe conclusion is: current founder/director is Kутьев Дмитрий Михайлович; a complete historical sequence requires official EGRUL extracts or a fully accessible historical source.
+
+The FAS public database is a general decisions database and does not show a direct indexed hit for the company's INN in the reviewed page. The company should be searched directly in the RNP section by INN and OGRN; absence of a hit in a general search page is not by itself a formal certificate of no RNP entry.
+
+### ООО «КГБ» / ООО «Корпорация Глобал Бетон» (ИНН 5036144414, ОГРН 1145074013413)
+
+Checko's public profile shows four arbitration cases, all as defendant, with an aggregate amount around 2.1 million rubles and latest visible case A40-27248/2019 dated 06.02.2019. It reports no participation in 44-FZ, 94-FZ or 223-FZ procurement, and states the company is not in the RNP. These are public profile summaries; the primary case docket should be opened in KAD for each case.
+
+The public profile also shows current director Артамонов Александр Алексеевич since 11 August 2016 and founder Попов Евгений Игоревич since 2 December 2015, with a warning about unreliable EGRUL information. This is a registry-quality flag, not proof of a crime.
+
+### Primary sources
+
+- FAS decisions/RNP portal: https://br.fas.gov.ru/
+- Arbitration docket: https://kad.arbitr.ru/
+- EGRUL FNS: https://egrul.nalog.ru/
+- OЦД public company profile: https://checko.ru/company/oblastnoy-centr-dezinfekcii-1125074004868
+- OЦД connections: https://checko.ru/company/1125074004868/connections
+- OЦД founder history: https://www.rusprofile.ru/founders/5844740
+- OЦД history: https://www.rusprofile.ru/history/5844740
+- KГБ public profile: https://checko.ru/company/kgb-1145074013413
