@@ -1,0 +1,11 @@
+table_name,primary_key,columns
+procurements,procurement_id,procurement_id|ikz|law|method|customer_inn|customer_name|subject|okpd2|published_at|nmck|region|source_document_id
+lots,lot_id,lot_id|procurement_id|lot_number|subject|nmck
+contracts,contract_id,contract_id|procurement_id|customer_inn|supplier_inn|contract_date|contract_price|status|execution_address
+participants,participant_id,participant_inn,participant_name|ogrn|legal_address|valid_from|valid_to|source_document_id
+participations,procurement_id__participant_inn,procurement_id|participant_inn|role|admitted|rank|final_price|result|source_document_id
+bids,bid_id,bid_id|procurement_id|participant_inn|submitted_at|price|step_number|stage|source_document_id
+documents,document_id,document_id|entity_type|entity_id|document_type|url|downloaded_at|sha256|evidence_level
+corporate_links,link_id,link_id|subject_a_inn|subject_b_inn|link_type|valid_from|valid_to|source_document_id|evidence_level|status
+technical_indicators,indicator_id,indicator_id|procurement_id|subject_a_inn|subject_b_inn|indicator_type|value|threshold|method|source_document_id|alternative_explanation|status
+execution_events,event_id,event_id|contract_id|event_date|event_type|amount|source_document_id|evidence_level
