@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px;position:relative}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:40px;line-height:1.12;font-weight:700;margin-top:17px}
+.lead{font-size:18px;line-height:1.45;color:#A7AAA8;max-width:820px;margin-top:14px}
+.path{display:grid;grid-template-columns:repeat(4,1fr);column-gap:30px;margin-top:72px;position:relative}
+.path:before{content:'';position:absolute;left:18px;right:18px;top:26px;height:1px;background:#6B665D}
+.step{position:relative;padding-top:66px}
+.step:before{content:'';position:absolute;left:0;top:18px;width:17px;height:17px;background:#202326;border:2px solid #C9A45C}
+.num{position:absolute;left:32px;top:7px;color:#C9A45C;font-size:16px;letter-spacing:1px}
+.step h3{font-size:20px;line-height:1.2;margin:0 0 12px;color:#F4F0E8}
+.step p{font-size:15px;line-height:1.48;color:#D0CCC3;margin:0;max-width:220px}
+.bottom{position:absolute;left:84px;right:84px;bottom:52px;border-top:1px solid #514F49;padding-top:17px;color:#C9A45C;font-size:15px;letter-spacing:.2px}
+.bottom span{color:#A7AAA8}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">07 / следующий контур проверки</div>
+  <div class="title">Какие индикаторы стоит проверять дальше</div>
+  <div class="lead">Последовательность проверки должна вести от повторяемости закупок к первичным документам, а не от подозрения к обвинению.</div>
+  <div class="path">
+    <div class="step"><div class="num">01</div><h3>Повторяемость пар</h3><p>Пары «заказчик — поставщик», частота встреч и устойчивое распределение побед.</p></div>
+    <div class="step"><div class="num">02</div><h3>Контакты и данные</h3><p>Телефоны, e-mail, домены, время и технические метаданные — только если они законно опубликованы.</p></div>
+    <div class="step"><div class="num">03</div><h3>Исторический ЕГРЮЛ</h3><p>Общие руководители, учредители, адреса и цепочки реорганизаций на даты заявок.</p></div>
+    <div class="step"><div class="num">04</div><h3>Исход исполнения</h3><p>Расторжения, односторонние отказы, жалобы ФАС и судебные акты по каждому контракту.</p></div>
+  </div>
+  <div class="bottom">Индикатор <span>показывает, где искать документы; он не заменяет доказательство.</span></div>
+</div>
+</body>
+</html>

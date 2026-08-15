@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px;position:relative}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:40px;line-height:1.1;font-weight:700;margin-top:16px;max-width:900px}
+.lead{font-size:18px;line-height:1.45;color:#A7AAA8;margin-top:13px;max-width:860px}
+.audit-line{position:absolute;left:84px;right:84px;top:265px;height:1px;background:#625F57}
+.layers{position:absolute;left:84px;right:84px;top:223px;display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+.layer{min-height:260px;padding-top:74px;position:relative}
+.layer:before{content:'';position:absolute;left:0;top:34px;width:22px;height:22px;background:#202326;border:2px solid #C9A45C}
+.number{position:absolute;left:38px;top:20px;font-size:15px;letter-spacing:1px;color:#C9A45C}
+.layer h2{font-size:21px;line-height:1.18;margin:0 0 13px;color:#F4F0E8}
+.layer p{font-size:15px;line-height:1.5;color:#D0CCC3;margin:0;max-width:230px}
+.layer p strong{color:#C9A45C;font-weight:600}
+.bottom{position:absolute;left:84px;right:84px;bottom:52px;border-top:1px solid #514F49;padding-top:18px;display:grid;grid-template-columns:250px 1fr;gap:28px}
+.bottom-title{font-size:20px;color:#C9A45C;font-weight:700}
+.bottom-text{font-size:16px;line-height:1.45;color:#D0CCC3;max-width:820px}
+.bottom-text strong{color:#F4F0E8;font-weight:600}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">09 / следующий этап</div>
+  <div class="title">Что нужно для полной проверки 232 контрактов</div>
+  <div class="lead">Автоматизированный поиск помогает расставить приоритеты, но доказательный вывод строится на первичных документах.</div>
+  <div class="audit-line"></div>
+  <div class="layers">
+    <section class="layer"><div class="number">01</div><h2>Официальный экспорт ЕИС</h2><p>Реестровые номера, заказчики, НМЦК, цены, участники, протоколы и статусы исполнения по всему массиву.</p></section>
+    <section class="layer"><div class="number">02</div><h2>Исторический ЕГРЮЛ</h2><p>Выписки ОЦД и сопоставимых компаний <strong>на даты подачи заявок</strong>: руководители, учредители, адреса и изменения.</p></section>
+    <section class="layer"><div class="number">03</div><h2>ФАС и суды</h2><p>Жалобы, решения, сведения о РНП, расторжениях, отказах и существенных арбитражных спорах.</p></section>
+    <section class="layer"><div class="number">04</div><h2>Скрипт + ручная сверка</h2><p><strong>check_ocd_contracts.py</strong> ищет признаки в карточках; документы и контекст проверяются вручную.</p></section>
+  </div>
+  <div class="bottom"><div class="bottom-title">Стандарт результата</div><div class="bottom-text"><strong>Скрипт не заменяет официальную выгрузку и первичные документы.</strong> Он помогает обнаружить потенциально важные статусы, после чего каждая запись должна быть сопоставлена с карточкой ЕИС, протоколом, документами исполнения и судебными актами.</div></div>
+</div>
+</body>
+</html>

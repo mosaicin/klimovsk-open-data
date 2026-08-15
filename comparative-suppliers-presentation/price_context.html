@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px;position:relative}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:40px;line-height:1.1;font-weight:700;margin-top:16px}
+.subtitle{font-size:18px;color:#A7AAA8;margin-top:12px}
+.compare{position:absolute;left:84px;right:84px;top:215px;height:205px;border-top:1px solid #625F57;border-bottom:1px solid #625F57;display:flex;align-items:center}
+.amount{width:270px;font-size:42px;font-weight:700;color:#F4F0E8}
+.label{font-size:15px;font-weight:400;color:#A7AAA8;margin-top:9px;letter-spacing:.3px}
+.arrow{width:220px;height:1px;background:#C9A45C;position:relative;margin:0 42px}
+.arrow:after{content:'';position:absolute;right:0;top:-5px;width:10px;height:10px;border-top:1px solid #C9A45C;border-right:1px solid #C9A45C;transform:rotate(45deg)}
+.result{width:280px;font-size:42px;font-weight:700;color:#F4F0E8}
+.rate{margin-left:auto;width:210px;font-size:58px;line-height:1;color:#C9A45C;font-weight:700;text-align:right}
+.rate span{display:block;font-size:14px;line-height:1.3;color:#A7AAA8;font-weight:400;margin-top:11px;letter-spacing:1px;text-transform:uppercase}
+.bottom{position:absolute;left:84px;right:84px;bottom:54px;display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.control{border-top:1px solid #625F57;padding-top:14px}
+.control h3{font-size:17px;margin:0 0 7px;color:#F4F0E8}
+.control p{font-size:15px;line-height:1.38;color:#D0CCC3;margin:0}
+.note{position:absolute;left:84px;top:466px;color:#C9A45C;font-size:15px;letter-spacing:.2px}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">05 / ценовой контекст</div>
+  <div class="title">Ценовые паттерны требуют контекста</div>
+  <div class="subtitle">Процент снижения нельзя интерпретировать отдельно от протоколов, объёма работ и статуса исполнения.</div>
+  <div class="compare">
+    <div class="amount">360 000 ₽<div class="label">начальная цена · Москва, 2020</div></div>
+    <div class="arrow"></div>
+    <div class="result">27 000 ₽<div class="label">итоговая цена контракта</div></div>
+    <div class="rate">−92,5%<span>разница между НМЦК и итогом</span></div>
+  </div>
+  <div class="note">Резкое снижение цены само по себе не доказывает сговор или аффилированность.</div>
+  <div class="bottom">
+    <div class="control"><h3>Протоколы</h3><p>Сколько заявок допущено и как проходил аукцион.</p></div>
+    <div class="control"><h3>Объём</h3><p>Площадь, период, единичные расценки и состав работ.</p></div>
+    <div class="control"><h3>НМЦК</h3><p>Методика расчёта начальной цены и рыночные аналоги.</p></div>
+    <div class="control"><h3>Исполнение</h3><p>Расторжения, отказы, неустойки и судебные документы.</p></div>
+  </div>
+</div>
+</body>
+</html>

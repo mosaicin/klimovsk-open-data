@@ -251,3 +251,13 @@ An ordinary claim for payment, a commercial dispute, or an arbitration case with
 The only Moscow procurement in the verified sample is 0373200081220000058. Public profiles identify the customer as ГКУ «Дирекция ЖКХиБ ЦАО», INN 7701848225, OGRN 1097746517450, registered in Moscow at Novaya Basmannaya 37, building 1; public profiles name Leonov Alexander Gennadievich as head. These details differ from OCD's INN 5021001371, OGRN 1125074004868, Klimovsk address, and Kутьев Dmitry Mikhailovich. No shared address, head, or founder is established by the captured public records. Sources: https://focus.kontur.ru/entity?query=1097746517450 and https://www.rusprofile.ru/id/2345114.
 
 Because the verified sample contains only one Moscow customer, it cannot support a pattern-level conclusion about OCD's relationships with Moscow Region customers. A full customer-by-customer analysis requires the complete EIS export and public EGRUL profiles for every customer.
+
+## Сопоставимые поставщики Московской области/Москвы
+
+The 2020 Moscow procurement for deratization (initial 360,000 rubles, final 27,000 rubles) lists OCD as winner and Green-Polis, Sonet, Phoenix, DEZ Group, and two individual entrepreneurs as participants. This is the strongest directly verified comparison row.
+
+Public profile for ООО «Грин-Полис»: OGRN 5077746823105, INN 7715650987, registered 24.05.2007, Moscow address Polar­naya 7 k.2, principal activity disinfection/disinsection/deratization, 252 public procurement records as supplier in the profile. Its listed head is Zaytsev Mikhail Ivanovich. The profile says 1 arbitration case for 49,780 rubles and no enforcement proceedings found.
+
+A search result identifies ООО «ДЕЗ Групп», INN 7716774512, registered in Moscow in 2014, with the same principal activity. The vsem-podryad participant page confirms its participation in the 2020 Moscow procurement, but the full page did not expose unmasked EGRUL details.
+
+The source is insufficient to claim that any participant shares ownership, management, address, contact or technical submission data with OCD. Only participation in the same auction is verified.

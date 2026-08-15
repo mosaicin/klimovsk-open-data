@@ -1,0 +1,133 @@
+{
+  "project_info": {
+    "title": "ООО «Областной центр дезинфекции»",
+    "created": 1786768848.12,
+    "last_updated": 1786769090.387,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "method",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "ocd_profile",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "similar_suppliers",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "auction",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "price_context",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "affiliation_check",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "risk_indicators",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "preliminary_conclusion",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "full_audit",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "sources",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "ООО «Областной центр дезинфекции»",
+      "summary": "Сопоставимые поставщики, контракты и проверка индикаторов аффилированности; открытые данные, август 2026 года.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "method",
+      "title": "Что именно сравнивалось",
+      "summary": "Методика сравнения профиля деятельности, участия в 44-ФЗ и юридических признаков.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "ocd_profile",
+      "title": "Профиль ОЦД: отправная точка анализа",
+      "summary": "ИНН, ОГРН, профиль деятельности, рабочая база из 232 контрактов и проверяемые блоки данных.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "similar_suppliers",
+      "title": "Кто имеет наиболее похожий профиль",
+      "summary": "Green-Polis, DEZ Group и участники сопоставимого московского аукциона.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "auction",
+      "title": "Одна закупка показывает реальную конкуренцию",
+      "summary": "Московский аукцион 2020 года: состав участников, начальная и итоговая цена.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "price_context",
+      "title": "Ценовые паттерны требуют контекста",
+      "summary": "Почему процент снижения нельзя интерпретировать без протоколов, объёма и статуса исполнения.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "affiliation_check",
+      "title": "Проверка связи ОЦД с московским заказчиком",
+      "summary": "Сопоставление ОЦД с ГКУ «Дирекция ЖКХиБ ЦАО» и результат проверки общих реквизитов.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "risk_indicators",
+      "title": "Какие индикаторы стоит проверять дальше",
+      "summary": "Повторяемость пар, контакты, исторический ЕГРЮЛ, ФАС и судебные документы.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "preliminary_conclusion",
+      "title": "Предварительный вывод",
+      "summary": "Какие паттерны подтверждены и почему доказательств картеля или аффилированности недостаточно.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "full_audit",
+      "title": "Что нужно для полной проверки 232 контрактов",
+      "summary": "Официальная выгрузка ЕИС, исторический ЕГРЮЛ, ФАС, суды и роль скрипта аудита.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "sources",
+      "title": "Источники и стандарт доказательности",
+      "summary": "ЕИС, Rusprofile, карточка закупки, GitHub и рамка интерпретации результатов.",
+      "image_plan": "Use a suitable image if needed"
+    }
+  ]
+}

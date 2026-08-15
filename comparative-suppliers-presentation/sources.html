@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px 16px;position:relative}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:40px;line-height:1.1;font-weight:700;margin-top:16px}
+.lead{font-size:18px;line-height:1.45;color:#A7AAA8;max-width:870px;margin-top:12px}
+.content{display:grid;grid-template-columns:1.15fr .85fr;gap:88px;margin-top:36px}
+.sources{border-top:1px solid #756F63}
+.source{display:grid;grid-template-columns:54px 1fr;gap:18px;border-bottom:1px solid #514F49;padding:8px 0 9px}
+.source-number{font-size:25px;font-weight:700;color:#C9A45C}
+.source-name{font-size:20px;font-weight:700;margin:0 0 6px}
+.source-text{font-size:15px;line-height:1.4;color:#D0CCC3;margin:0;max-width:500px}
+.standard{border-top:1px solid #C9A45C;padding-top:8px}
+.standard h2{font-size:24px;margin:0 0 25px;color:#C9A45C}
+.rule{border-top:1px solid #625F57;padding-top:8px;margin-top:12px}
+.rule h3{font-size:17px;margin:0 0 7px}
+.rule p{font-size:15px;line-height:1.42;color:#D0CCC3;margin:0}
+.closing{position:relative;margin-top:8px;border-top:1px solid #756F63;padding-top:12px;font-size:16px;color:#C9A45C}
+.closing span{color:#A7AAA8}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">10 / источники и ограничения</div>
+  <div class="title">Источники и стандарт доказательности</div>
+  <div class="lead">Исследование опирается на открытые карточки и сводные реестры; ключевые выводы должны подтверждаться первичными документами.</div>
+  <div class="content">
+    <section class="sources">
+      <div class="source"><div class="source-number">01</div><div><div class="source-name">ЕИС в сфере закупок</div><p class="source-text">Официальные карточки закупок, контракты, протоколы, сведения об исполнении и изменениях.</p></div></div>
+      <div class="source"><div class="source-number">02</div><div><div class="source-name">Rusprofile и открытые реестры</div><p class="source-text">Сводные данные ЕГРЮЛ, закупок и арбитража; показатели требуют сверки с ФНС, ЕИС и КАД.</p></div></div>
+      <div class="source"><div class="source-number">03</div><div><div class="source-name">Карточка сопоставимого аукциона</div><p class="source-text">Публичная карточка закупки 2020 года: участники, НМЦК 360 000 ₽ и итог 27 000 ₽.</p></div></div>
+      <div class="source"><div class="source-number">04</div><div><div class="source-name">GitHub: klimovsk-open-data</div><p class="source-text">Рабочие CSV, скрипт check_ocd_contracts.py, методология и описание ограничений проверки.</p></div></div>
+    </section>
+    <section class="standard">
+      <h2>Стандарт вывода</h2>
+      <div class="rule"><h3>Факт</h3><p>Прямо наблюдаемая запись в первоисточнике: контракт, участник, реквизит или судебный документ.</p></div>
+      <div class="rule"><h3>Индикатор</h3><p>Повторяемость или совпадение, которое определяет направление дальнейшей проверки.</p></div>
+      <div class="rule"><h3>Доказательство</h3><p>Совокупность согласующихся документов; одного общего аукциона или резкого снижения цены недостаточно.</p></div>
+    </section>
+  </div>
+  <div class="closing">Факты отделены от индикаторов. <span>Индикатор не равен доказательству; отсутствие найденной связи не исключает её без полного массива данных.</span></div>
+</div>
+</body>
+</html>

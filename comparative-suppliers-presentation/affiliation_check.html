@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px;position:relative}
+.eyebrow{color:#C9A45C;font-size:14px;letter-spacing:2px;text-transform:uppercase}
+.title{font-size:39px;line-height:1.1;font-weight:700;margin-top:16px}
+.subtitle{font-size:17px;color:#A7AAA8;margin-top:12px}
+.columns{display:grid;grid-template-columns:1fr 150px 1fr;gap:34px;margin-top:70px;align-items:start}
+.column{min-height:260px;border-top:1px solid #756F63;padding-top:17px}
+.column h2{font-size:24px;margin:0 0 20px;font-weight:700}
+.label{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#C9A45C;margin-bottom:7px}
+.value{font-size:17px;line-height:1.45;color:#D6D1C7;margin-bottom:19px}
+.middle{display:flex;min-height:270px;flex-direction:column;align-items:center;justify-content:center;color:#C9A45C}
+.middle .line{width:1px;height:78px;background:#C9A45C;margin:13px 0}
+.middle .mark{font-size:27px;letter-spacing:2px}
+.result{position:absolute;left:84px;right:84px;bottom:54px;border-top:1px solid #756F63;padding-top:18px;display:grid;grid-template-columns:250px 1fr;gap:28px}
+.result-title{font-size:21px;color:#C9A45C;font-weight:700}
+.result-text{font-size:17px;line-height:1.45;color:#D6D1C7}
+.result-text strong{color:#F4F0E8}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">06 / проверка связи</div>
+  <div class="title">Проверка связи ОЦД с московским заказчиком</div>
+  <div class="subtitle">Сопоставление доступных реквизитов и руководящих данных по одной проверенной закупке.</div>
+  <div class="columns">
+    <section class="column">
+      <div class="label">Поставщик</div>
+      <h2>ООО «Областной центр дезинфекции»</h2>
+      <div class="label">Идентификаторы</div>
+      <div class="value">ИНН 5021001371<br/>ОГРН 1125074004868</div>
+      <div class="label">Регион</div>
+      <div class="value">Московская область; профильные санитарные услуги.</div>
+    </section>
+    <div class="middle">
+      <div class="mark">↔</div>
+      <div class="line"></div>
+      <div class="label">сверка</div>
+    </div>
+    <section class="column">
+      <div class="label">Заказчик</div>
+      <h2>ГКУ «Дирекция ЖКХиБ ЦАО»</h2>
+      <div class="label">Идентификатор</div>
+      <div class="value">ИНН 7701848225<br/>Москва, Новая Басманная, 37, стр. 1</div>
+      <div class="label">Предмет закупки</div>
+      <div class="value">Дератизация рекреационных территорий; электронный аукцион 2020 года.</div>
+    </section>
+  </div>
+  <div class="result">
+    <div class="result-title">Результат проверки</div>
+    <div class="result-text"><strong>Доказательная аффилированность не установлена.</strong> В доступных сведениях не выявлены общий руководитель, общий учредитель или общий юридический адрес. Это не заменяет историческую выписку ЕГРЮЛ, документы заявок и полный массив ЕИС.</div>
+  </div>
+</div>
+</body>
+</html>
