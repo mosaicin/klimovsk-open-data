@@ -50,3 +50,33 @@ The regional EASUZ portal lists a procurement for construction and installation 
 The official Moscow city source describes a school and kindergarten in Dmitrovsky District using metal lamellas to fragment functional blocks. It is an architectural analogue, not evidence of shared ownership or procurement. Source: https://www.mos.ru/news/item/148550073/
 
 The current comparison supports a documented regional design pattern: metal lamellas are used in multiple school projects in Putilkovo, Kartmazovo and Dmitrovsky District. It does not establish that the Klimovsk school used the same manufacturer, designer or contractor without project specifications, bill of quantities and contract appendices.
+
+## Финансы и госконтракты
+
+### ООО «Корпорация Глобал Бетон» / ООО «КГБ»
+
+Rusprofile identifies the company as active, OGRN 1145074013413, INN 5036144414, registered at Suvorova 2A, with authorized capital of 20,000 rubles and main activity production of ready-mix concrete. The publicly visible profile does not expose current revenue figures, but it states that no participation in 44-FZ, 94-FZ or 223-FZ public procurement was found. It shows two historical arbitration matters and two recent enforcement records; these are signals for due diligence, not proof of wrongdoing. Source: https://www.rusprofile.ru/id/9272365
+
+RBC confirms the same registration details and activity, and identifies the company as ООО «КГБ». Source: https://companies.rbc.ru/id/1145074013413-ooo-korporatsiya-global-beton/
+
+### ООО «Областной центр дезинфекции»
+
+RBC identifies OGRN 1125074004868, INN 5021001371, address Suvorova 2I, authorized capital 10,000 rubles and main activity 81.29.1. It reports the company as a supplier in 254 government contracts totalling 20,996,685 rubles. Source: https://companies.rbc.ru/id/1125074004868-ooo-obschestvo-s-ogranichennoj-otvetstvennostyu-oblastnoj-tsentr-dezinfektsii/
+
+Vsem-Podryad reports 2025 revenue of 53.41 million rubles, 2025 net profit of 644,000 rubles, assets of 59.749 million rubles, 25 employees, and 151 procurement victories totalling 30,616,556.37 rubles in its visible profile. The difference from RBC's 254 contracts and 20.997 million rubles likely reflects different time windows, datasets or counting methods; the figures should not be added together. Source: https://vsem-podryad.ru/company/127cf8db-4997-4f88-8e33-dd478bffe80f/
+
+The same Vsem-Podryad profile lists the main activity as disinfection/disinsection/deratization and additional real-estate and premises-management activities. It also shows one historical inclusion in the registry of unreliable suppliers that was later removed, according to the profile. This is a due-diligence fact requiring primary registry verification, not a conclusion of misconduct.
+
+Rusprofile/Checko previously showed annual revenue around 53.4 million rubles, 2025 profit 644,000 rubles, 252 public contracts totalling about 20.7 million rubles and one owner/director. These figures are broadly consistent with the Vsem-Podryad snapshot, subject to dataset and update differences. Source: https://checko.ru/company/oblastnoy-centr-dezinfekcii-1125074004868
+
+### Кадастр / ЕГРН
+
+Search results located the Russian National Spatial Data portal (NSPD) and public cadastral map entry points, but no reliable indexed result exposed the exact parcel number for Sуворова 2A–2I. Address-level company listings are insufficient to determine land ownership. A proper next step is to identify each parcel in NSPD/PKK, record the cadastral number, then request the official EGRN extract for each parcel. The official extract may require authentication and payment, and owner details may be restricted by law.
+
+## Уточнение по ООО «КГБ»
+
+Checko reports for ООО «КГБ» that the latest publicly visible accounting year is 2019: revenue 0 rubles, net profit 0 rubles, assets 10.8 million rubles and equity 699,000 rubles. It also flags an unreliable legal address and an unreliable founder record, reports 0 rubles of taxes for 2025 and a tax-related penalty balance of about 46.3 thousand rubles as of 1 July 2026. These are data-quality and due-diligence flags, not proof of criminal activity. Source: https://checko.ru/company/kgb-1145074013413
+
+T-Bank's public contractor profile independently shows 2019 revenue 0 rubles, profit 0 rubles, accounts payable 10.12 million rubles and accounts receivable 3.55 million rubles. It lists five enforcement proceedings, two open, with about 47,683 rubles remaining at the time of the snapshot. Source: https://www.tbank.ru/business/contractor/legal/1145074013413/
+
+The public profiles show no 44-FZ, 94-FZ or 223-FZ procurement participation for ООО «КГБ». Current financial statements after 2019 were not available in the reviewed public pages, so no current revenue estimate should be fabricated.
