@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;position:relative;padding:64px 84px}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:40px;line-height:1.1;font-weight:700;margin-top:16px}
+.lead{font-size:18px;color:#A7AAA8;line-height:1.4;margin-top:12px;max-width:860px}
+.layout{display:grid;grid-template-columns:560px 1fr;gap:70px;margin-top:54px}
+.chart{border-top:1px solid #756F63;padding-top:16px}
+.scale{display:flex;justify-content:space-between;color:#858983;font-size:12px;margin-left:145px;width:390px;margin-bottom:13px}
+.row{height:51px;display:grid;grid-template-columns:132px 390px 70px;align-items:center;gap:13px;border-top:1px solid #514F49}
+.row:last-child{border-bottom:1px solid #514F49}
+.label{font-size:15px;color:#D0CCC3;line-height:1.15;text-align:right}
+.track{height:16px;background:#3A3D3D;position:relative}
+.bar{height:16px;background:#C9A45C}
+.bar.zero{width:1px;background:#858983}
+.value{font-size:16px;color:#F4F0E8;text-align:right}
+.evidence{border-top:1px solid #C9A45C;padding-top:16px}
+.evidence h2{font-size:22px;margin:0 0 18px;color:#C9A45C}
+.item{border-top:1px solid #625F57;padding:11px 0 12px}
+.item h3{font-size:17px;margin:0 0 5px;color:#F4F0E8}
+.item p{font-size:14px;line-height:1.35;color:#D0CCC3;margin:0}
+.item strong{color:#C9A45C;font-weight:600}
+.note{position:absolute;left:84px;right:84px;bottom:50px;border-top:1px solid #514F49;padding-top:15px;color:#A7AAA8;font-size:14px;line-height:1.35}
+.note strong{color:#C9A45C;font-weight:600}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">06 / проверенная выборка</div>
+  <div class="title">Ценовой профиль доступной выборки</div>
+  <div class="lead">Четыре строки показывают широкий диапазон снижения — от 0% до 92,5%; это описательная картина, а не полный портфель ОЦД.</div>
+  <div class="layout">
+    <section class="chart">
+      <div class="scale"><span>0%</span><span>20%</span><span>40%</span><span>60%</span><span>80%</span><span>100%</span></div>
+      <div class="row"><div class="label">2020<br/>Москва</div><div class="track"><div class="bar" style="width:92.5%"></div></div><div class="value">92,500%</div></div>
+      <div class="row"><div class="label">2020<br/>Самарская обл.</div><div class="track"><div class="bar" style="width:81.062129%"></div></div><div class="value">81,062%</div></div>
+      <div class="row"><div class="label">2016<br/>Калужская обл.</div><div class="track"><div class="bar" style="width:52.288255%"></div></div><div class="value">52,288%</div></div>
+      <div class="row"><div class="label">2023<br/>Кировская обл.</div><div class="track"><div class="bar zero"></div></div><div class="value">0,000%</div></div>
+    </section>
+    <section class="evidence">
+      <h2>Четыре наблюдения</h2>
+      <div class="item"><h3>Москва · 2020</h3><p>НМЦК <strong>360 000 ₽</strong> → итог <strong>27 000 ₽</strong>; ОЦД отмечен победителем.</p></div>
+      <div class="item"><h3>Самарская область · 2020</h3><p>НМЦК <strong>1 000 000 ₽</strong> → итог <strong>189 378,71 ₽</strong>; победил другой поставщик.</p></div>
+      <div class="item"><h3>Калужская область · 2016</h3><p>НМЦК <strong>58 685,76 ₽</strong> → итог <strong>28 000 ₽</strong>; ОЦД отмечен победителем.</p></div>
+      <div class="item"><h3>Кировская область · 2023</h3><p>НМЦК и итог <strong>64 240 ₽</strong>; победил другой региональный центр.</p></div>
+    </section>
+  </div>
+  <div class="note"><strong>Ограничение:</strong> итоговая цена закупки не равна автоматически индивидуальной ставке ОЦД; для ценового скрининга нужны протоколы и все предложения участников.</div>
+</div>
+</body>
+</html>

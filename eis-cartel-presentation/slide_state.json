@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "ООО «Областной центр дезинфекции»",
+    "created": 1786769752.364,
+    "last_updated": 1786769924.915,
+    "total_slides": 12
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "data_gap",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "eis_search",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "documents",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "data_model",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "price_types",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "sample_profile",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "aggregate_limits",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "patterns",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "fas_standard",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "fallback",
+      "state": "edited",
+      "pageNum": 11
+    },
+    {
+      "id": "closing",
+      "state": "edited",
+      "pageNum": 12
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "ООО «Областной центр дезинфекции»",
+      "summary": "Как получить полный массив из ЕИС и проверить ценовые паттерны; рабочая выборка 4 из заявленных 232 контрактов.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "data_gap",
+      "title": "Почему текущих данных недостаточно",
+      "summary": "Граница между подтверждённой четырёхстрочной выборкой и заявленным массивом 232 контрактов.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "eis_search",
+      "title": "Официальная точка входа — расширенный поиск ЕИС",
+      "summary": "Фильтры 44-ФЗ, ИНН поставщика, период и статусы закупок.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "documents",
+      "title": "Какие разделы нужно скачать по каждой закупке",
+      "summary": "Карточка, документы, протоколы, журнал событий и исполнение.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "data_model",
+      "title": "Две связанные таблицы вместо одной",
+      "summary": "Структура contracts, participants, auction steps, documents и execution.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "price_types",
+      "title": "Не смешивать четыре разных цены",
+      "summary": "НМЦК, заявка, шаг аукциона, цена контракта и исполнения.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "sample_profile",
+      "title": "Ценовой профиль доступной выборки",
+      "summary": "Четыре строки, проценты снижения и региональный контекст.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "aggregate_limits",
+      "title": "Что говорят агрегаты — и чего не говорят",
+      "summary": "Медиана, среднее, диапазон и пределы интерпретации при n=4.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "patterns",
+      "title": "Какие паттерны проверять после выгрузки",
+      "summary": "Повторяемость, ротация, пассивные заявки, ценовые кластеры и технические совпадения.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "fas_standard",
+      "title": "Правовой стандарт ФАС",
+      "summary": "Элементы предмета доказывания по картельным соглашениям на торгах.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "fallback",
+      "title": "Если массовая выгрузка не находится",
+      "summary": "Обращение в поддержку ЕИС и оператору площадки с корректными границами запроса.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "closing",
+      "title": "Итог и следующий шаг",
+      "summary": "Что уже подтверждено и что требуется для анализа всех 232 контрактов.",
+      "image_plan": "Use a suitable image if needed"
+    }
+  ]
+}

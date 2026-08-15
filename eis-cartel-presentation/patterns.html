@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px;position:relative}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:40px;line-height:1.1;font-weight:700;margin-top:16px;max-width:900px}
+.lead{font-size:18px;line-height:1.45;color:#A7AAA8;margin-top:13px;max-width:890px}
+.path{position:absolute;left:84px;right:84px;top:246px;height:250px;display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+.path:before{content:'';position:absolute;left:16px;right:16px;top:29px;height:1px;background:#625F57}
+.step{position:relative;border-top:1px solid #756F63;padding-top:65px}
+.step:before{content:'';position:absolute;left:0;top:20px;width:17px;height:17px;background:#202326;border:2px solid #C9A45C}
+.num{position:absolute;left:32px;top:5px;font-size:15px;letter-spacing:1px;color:#C9A45C}
+.step h2{font-size:21px;line-height:1.18;margin:0 0 12px;color:#F4F0E8;max-width:220px}
+.step p{font-size:15px;line-height:1.47;color:#D0CCC3;margin:0;max-width:225px}
+.step strong{color:#F4F0E8;font-weight:600}
+.bottom{position:absolute;left:84px;right:84px;bottom:52px;border-top:1px solid #514F49;padding-top:16px;display:grid;grid-template-columns:220px 1fr;gap:30px}
+.bottom-title{font-size:20px;font-weight:700;color:#C9A45C}
+.bottom-text{font-size:16px;line-height:1.45;color:#D0CCC3;max-width:820px}
+.bottom-text strong{color:#F4F0E8;font-weight:600}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">08 / антимонопольный скрининг</div>
+  <div class="title">Какие паттерны проверять после выгрузки</div>
+  <div class="lead">После получения 232 строк и протоколов анализ следует вести от повторяемости к первичным документам.</div>
+  <div class="path">
+    <section class="step"><div class="num">01</div><h2>Повторяемость пар</h2><p>Сколько раз встречаются одни и те же пары «заказчик — поставщик» при сопоставимом предмете и периоде.</p></section>
+    <section class="step"><div class="num">02</div><h2>Ротация победителей</h2><p>Меняются ли победители между похожими закупками, регионами и заказчиками, или распределение выглядит устойчивым.</p></section>
+    <section class="step"><div class="num">03</div><h2>Пассивные заявки и цены</h2><p>Есть ли участники с формальной заявкой, повторяющимися ценовыми кластерами или отсутствием ставок в сопоставимых процедурах.</p></section>
+    <section class="step"><div class="num">04</div><h2>Время и технические совпадения</h2><p>Совпадают ли время подачи и иные технические признаки; такие данные учитываются только при законной доступности.</p></section>
+  </div>
+  <div class="bottom"><div class="bottom-title">Правильная рамка</div><div class="bottom-text"><strong>Паттерн — это сигнал для проверки, а не вывод о картеле.</strong> Каждый сигнал нужно сопоставить с протоколом, заявками, историческим ЕГРЮЛ, решениями ФАС и документами исполнения.</div></div>
+</div>
+</body>
+</html>

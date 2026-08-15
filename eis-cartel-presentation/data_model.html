@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px;position:relative}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:40px;line-height:1.1;font-weight:700;margin-top:16px}
+.lead{font-size:18px;line-height:1.45;color:#A7AAA8;margin-top:12px;max-width:900px}
+.schema{display:grid;grid-template-columns:1.15fr 1fr 1.05fr 1fr 1.05fr;gap:24px;margin-top:56px}
+.node{border-top:1px solid #C9A45C;padding-top:15px;min-height:270px;position:relative}
+.number{font-size:15px;letter-spacing:1.5px;color:#C9A45C}
+.node h2{font-size:22px;line-height:1.15;margin:17px 0 12px;color:#F4F0E8}
+.node p{font-size:15px;line-height:1.48;color:#D0CCC3;margin:0;max-width:190px}
+.fields{margin-top:22px;font-size:13px;line-height:1.55;color:#A7AAA8;border-top:1px solid #514F49;padding-top:11px;max-width:190px}
+.connector{position:absolute;right:-24px;top:24px;color:#C9A45C;font-size:20px}
+.bottom{position:absolute;left:84px;right:84px;bottom:52px;border-top:1px solid #514F49;padding-top:16px;display:grid;grid-template-columns:210px 1fr;gap:30px}
+.bottom-title{font-size:20px;font-weight:700;color:#C9A45C}
+.bottom-text{font-size:16px;line-height:1.45;color:#D0CCC3;max-width:800px}
+.bottom-text strong{color:#F4F0E8;font-weight:600}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">04 / модель данных</div>
+  <div class="title">Две связанные таблицы вместо одной</div>
+  <div class="lead">Для ценового и антимонопольного скрининга нужно сохранить связь между закупкой, участниками, ставками, документами и исполнением.</div>
+  <div class="schema">
+    <section class="node"><div class="number">01</div><h2>contracts</h2><p>Одна строка на закупку или контракт.</p><div class="fields">номер · заказчик<br/>НМЦК · цена<br/>дата · статус · URL</div><div class="connector">→</div></section>
+    <section class="node"><div class="number">02</div><h2>participants</h2><p>Одна строка на каждого участника.</p><div class="fields">ИНН · допуск<br/>отклонение · место<br/>цена заявки · роль</div><div class="connector">→</div></section>
+    <section class="node"><div class="number">03</div><h2>auction_steps</h2><p>Каждый ценовой шаг отдельно.</p><div class="fields">участник · время<br/>цена шага<br/>номер шага</div><div class="connector">→</div></section>
+    <section class="node"><div class="number">04</div><h2>documents</h2><p>Источники и происхождение факта.</p><div class="fields">тип документа<br/>дата публикации<br/>URL · хэш файла</div><div class="connector">→</div></section>
+    <section class="node"><div class="number">05</div><h2>execution</h2><p>Что произошло после победы.</p><div class="fields">акты · сумма<br/>изменения · расторжение<br/>отказ · неустойка</div></section>
+  </div>
+  <div class="bottom"><div class="bottom-title">Почему это важно</div><div class="bottom-text"><strong>Одна итоговая цена не раскрывает поведение участников.</strong> Раздельные таблицы позволяют проверить повторяемость, ротацию победителей, последовательность ставок и связь с документами исполнения.</div></div>
+</div>
+</body>
+</html>

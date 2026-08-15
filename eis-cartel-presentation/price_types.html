@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px;position:relative}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:40px;line-height:1.1;font-weight:700;margin-top:16px;max-width:850px}
+.lead{font-size:18px;line-height:1.45;color:#A7AAA8;margin-top:13px;max-width:880px}
+.timeline{position:absolute;left:84px;right:84px;top:245px;height:286px;border-top:1px solid #625F57;display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+.stage{position:relative;padding-top:52px;border-top:3px solid #C9A45C}
+.stage:before{content:'';position:absolute;top:-11px;left:0;width:17px;height:17px;background:#202326;border:2px solid #C9A45C}
+.num{position:absolute;top:-42px;left:31px;font-size:15px;letter-spacing:1px;color:#C9A45C}
+.stage h2{font-size:23px;line-height:1.15;margin:0 0 13px;color:#F4F0E8}
+.symbol{font-size:32px;font-weight:700;color:#C9A45C;margin-bottom:14px}
+.stage p{font-size:15px;line-height:1.45;color:#D0CCC3;margin:0;max-width:225px}
+.stage strong{color:#F4F0E8;font-weight:600}
+.footer{position:absolute;left:84px;right:84px;bottom:52px;border-top:1px solid #514F49;padding-top:16px;display:grid;grid-template-columns:235px 1fr;gap:30px}
+.footer-title{font-size:20px;font-weight:700;color:#C9A45C}
+.footer-text{font-size:16px;line-height:1.45;color:#D0CCC3;max-width:800px}
+.footer-text strong{color:#F4F0E8;font-weight:600}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">05 / ценовая модель</div>
+  <div class="title">Не смешивать четыре разных цены</div>
+  <div class="lead">Для анализа поведения участников каждая цена должна храниться отдельным полем и иметь собственный источник.</div>
+  <div class="timeline">
+    <section class="stage"><div class="num">01</div><div class="symbol">НМЦК</div><h2>Начальная цена</h2><p>Расчёт заказчика до подачи заявок. Нужна методика расчёта и обоснование цены.</p></section>
+    <section class="stage"><div class="num">02</div><div class="symbol">Заявка</div><h2>Первоначальное предложение</h2><p>Цена конкретного участника до торгов. Не равна последней ставке и не равна цене контракта.</p></section>
+    <section class="stage"><div class="num">03</div><div class="symbol">Шаг</div><h2>Динамика аукциона</h2><p>Каждая ставка имеет участника, время и цену. Именно здесь проверяется последовательность действий.</p></section>
+    <section class="stage"><div class="num">04</div><div class="symbol">Контракт</div><h2>Итог и исполнение</h2><p>Цена победителя, изменения и фактическая оплата могут различаться и требуют отдельных документов.</p></section>
+  </div>
+  <div class="footer"><div class="footer-title">Почему это важно</div><div class="footer-text"><strong>Итоговая цена не раскрывает историю торгов.</strong> Если в выгрузке есть только НМЦК и финальная сумма, можно рассчитать снижение, но нельзя надёжно определить пассивную заявку, ротацию или согласованность ставок.</div></div>
+</div>
+</body>
+</html>

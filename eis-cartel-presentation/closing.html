@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px 32px;position:relative}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:42px;line-height:1.08;font-weight:700;margin-top:16px}
+.lead{font-size:19px;line-height:1.4;color:#A7AAA8;margin-top:13px;max-width:900px}
+.columns{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;margin-top:36px}
+.column{border-top:1px solid #756F63;padding-top:8px}
+.column h2{font-size:24px;line-height:1.18;margin:0 0 18px;color:#C9A45C}
+.fact{border-top:1px solid #514F49;padding-top:8px;margin-top:8px}
+.fact h3{font-size:18px;line-height:1.2;margin:0 0 6px;color:#F4F0E8}
+.fact p{font-size:15px;line-height:1.43;color:#D0CCC3;margin:0;max-width:450px}
+.fact strong{color:#F4F0E8;font-weight:600}
+.next{position:relative;border-top:1px solid #C9A45C;padding-top:12px}
+.next h2{font-size:24px;line-height:1.18;margin:0 0 18px;color:#C9A45C}
+.step{display:grid;grid-template-columns:48px 1fr;gap:12px;border-top:1px solid #514F49;padding:8px 0}
+.num{font-size:28px;font-weight:700;color:#C9A45C}
+.step h3{font-size:18px;line-height:1.2;margin:0 0 6px;color:#F4F0E8}
+.step p{font-size:15px;line-height:1.4;color:#D0CCC3;margin:0}
+.footer{position:absolute;left:84px;right:84px;bottom:24px;border-top:1px solid #756F63;padding-top:12px;font-size:16px;line-height:1.4;color:#C9A45C}
+.footer span{color:#A7AAA8}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">11 / итог и следующий шаг</div>
+  <div class="title">От описательного скрининга — к проверяемому выводу</div>
+  <div class="lead">Текущие данные позволяют зафиксировать ценовую неоднородность, но не позволяют объявить наличие картельного соглашения.</div>
+  <div class="columns">
+    <section class="column">
+      <h2>Что подтверждено сейчас</h2>
+      <div class="fact"><h3>Выборка</h3><p>В репозитории подтверждены <strong>4 уникальные закупки</strong> с НМЦК и итоговой ценой; это не полный экспорт 232 контрактов.</p></div>
+      <div class="fact"><h3>Цены</h3><p>Снижение находится в диапазоне <strong>0–92,5%</strong>; медиана — <strong>66,675%</strong>, среднее — <strong>56,463%</strong>.</p></div>
+      <div class="fact"><h3>Доказательность</h3><p>Одна итоговая цена, участие в общей закупке или резкое снижение не устанавливают сговор без протоколов и независимых подтверждений.</p></div>
+    </section>
+    <section class="next">
+      <h2>Что требуется дальше</h2>
+      <div class="step"><div class="num">01</div><div><h3>Получить полный массив ЕИС</h3><p>Реестровые номера, НМЦК, все участники, цены заявок, шаги и документы исполнения.</p></div></div>
+      <div class="step"><div class="num">02</div><div><h3>Сверить официальные источники</h3><p>ЕИС, исторический ЕГРЮЛ, Банк решений ФАС, РНП и судебные материалы.</p></div></div>
+      <div class="step"><div class="num">03</div><div><h3>Провести повторяемый тест</h3><p>Снижение, ротация, повторяемость пар, пассивные заявки и временная последовательность ставок.</p></div></div>
+    </section>
+  </div>
+  <div class="footer">Методологическое правило: <span>факт отделён от индикатора, индикатор — от доказательства; итоговый вывод должен опираться на первичные документы.</span></div>
+</div>
+</body>
+</html>

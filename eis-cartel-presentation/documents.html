@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Noto Sans',Arial,sans-serif}
+.slide-container{width:1280px;min-height:720px;background:#202326;color:#F4F0E8;padding:64px 84px;position:relative}
+.eyebrow{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A45C}
+.title{font-size:40px;line-height:1.08;font-weight:700;margin-top:16px;max-width:920px}
+.lead{font-size:18px;line-height:1.4;color:#A7AAA8;margin-top:13px;max-width:880px}
+.chain{position:absolute;left:84px;top:212px;width:690px;border-top:1px solid #756F63}
+.item{display:grid;grid-template-columns:58px 270px 1fr;gap:22px;min-height:78px;border-bottom:1px solid #514F49;padding-top:13px}
+.num{font-size:25px;font-weight:700;color:#C9A45C}
+.name{font-size:20px;font-weight:700;line-height:1.15}
+.detail{font-size:15px;line-height:1.4;color:#D0CCC3;padding-right:20px}
+.side{position:absolute;right:84px;top:212px;width:360px;border-top:1px solid #C9A45C;padding-top:15px}
+.side h2{font-size:23px;line-height:1.15;color:#C9A45C;margin:0 0 24px}
+.side-rule{border-top:1px solid #625F57;padding-top:11px;margin-top:14px}
+.side-rule h3{font-size:17px;margin:0 0 6px;color:#F4F0E8}
+.side-rule p{font-size:15px;line-height:1.4;color:#D0CCC3;margin:0}
+.bottom{position:absolute;left:84px;right:84px;bottom:48px;border-top:1px solid #756F63;padding-top:15px;font-size:15px;line-height:1.4;color:#C9A45C}
+.bottom span{color:#A7AAA8}
+</style>
+</head>
+<body>
+<div class="slide-container">
+  <div class="eyebrow">03 / комплект документов</div>
+  <div class="title">Какие разделы нужно скачать по каждой закупке</div>
+  <div class="lead">Одна карточка даёт контекст; связка документов позволяет проверить, как формировалась цена и чем завершилось исполнение.</div>
+  <div class="chain">
+    <div class="item"><div class="num">01</div><div class="name">Карточка и извещение</div><div class="detail">Реестровый номер, предмет, НМЦК, способ закупки, сроки, ограничения и лоты.</div></div>
+    <div class="item"><div class="num">02</div><div class="name">Документация</div><div class="detail">Техническое задание, расчёт НМЦК, изменения и разъяснения к закупке.</div></div>
+    <div class="item"><div class="num">03</div><div class="name">Протоколы</div><div class="detail">Заявки, допуск и отклонение, результаты процедуры, места и доступные цены.</div></div>
+    <div class="item"><div class="num">04</div><div class="name">Журнал событий</div><div class="detail">Публикации, изменения статусов, даты действий и ссылки на связанные записи.</div></div>
+    <div class="item"><div class="num">05</div><div class="name">Контракт и исполнение</div><div class="detail">Цена, изменения, акты, расторжение, односторонний отказ, неустойки и платежные документы.</div></div>
+  </div>
+  <aside class="side">
+    <h2>Зачем это нужно</h2>
+    <div class="side-rule"><h3>Цена</h3><p>Отделить НМЦК, заявку, шаг аукциона, цену контракта и цену исполнения.</p></div>
+    <div class="side-rule"><h3>Конкуренция</h3><p>Установить полный состав участников и проверить, были ли ставки и отклонения.</p></div>
+    <div class="side-rule"><h3>Доказательства</h3><p>Связать ценовое поведение с конкретными протоколами, а не с одной итоговой суммой.</p></div>
+  </aside>
+  <div class="bottom">Граница доступности: <span>если ЕИС показывает только итоговый протокол, это фиксируется как ограничение; отсутствующие ставки нельзя реконструировать.</span></div>
+</div>
+</body>
+</html>
