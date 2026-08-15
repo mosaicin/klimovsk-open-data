@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "title": "Климовск и Кузнечики",
+    "created": 1786765289.907,
+    "last_updated": 1786765479.257,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "scope",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "suvorova",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "companies",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "school_revolyutsii",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "school_pobedy",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "kuznechiki_history",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "evidence_levels",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "next_steps",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "sources",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "conclusion",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "Климовск и Кузнечики",
+      "summary": "Нейтральный обзор открытых данных о компаниях, закупках и истории строительства."
+    },
+    {
+      "id": "scope",
+      "title": "Что именно исследуется",
+      "summary": "Границы анализа: адресный кластер Суворова, Кузнечики и публичные источники."
+    },
+    {
+      "id": "suvorova",
+      "title": "Суворова, 2: смешанная коммерческая зона",
+      "summary": "Картографические сведения о сервисах, гаражах, складах и точности адресных корпусов.",
+      "image_plan": "/home/ubuntu/upload/Screenshot_2026-08-15-05-23-20-73_3d9111e2d3171bf4882369f490c087b4.webp - Map view of Suvorova 2 area in Klimovsk"
+    },
+    {
+      "id": "companies",
+      "title": "Компании по адресному кластеру",
+      "summary": "Публичные сведения о юридических лицах по корпусам 2А–2И без частных данных."
+    },
+    {
+      "id": "school_revolyutsii",
+      "title": "Школа на улице Революции",
+      "summary": "825 мест, цена аукциона 2018 года, заказчик и ООО «Триумф».",
+      "image_plan": "/home/ubuntu/upload/search_images/1wxsn7cYjwNP.webp - School building exterior illustrating school construction project"
+    },
+    {
+      "id": "school_pobedy",
+      "title": "Школа на Победы, 3В",
+      "summary": "1100 мест, стоимость закупки и документально указанный подрядчик ООО «ГРМ».",
+      "image_plan": "/home/ubuntu/upload/search_images/lONXeEE4I915.jpg - School building exterior for the second school project on Pobedy street"
+    },
+    {
+      "id": "kuznechiki_history",
+      "title": "Кузнечики: военная история и жилищное строительство",
+      "summary": "Открытые сведения о строительстве для военнослужащих в 2010–2011 годах и поздней документации.",
+      "image_plan": "/home/ubuntu/upload/Screenshot_2026-08-15-05-23-41-93_3d9111e2d3171bf4882369f490c087b4.webp - Map showing Kuznechiki territory / area view"
+    },
+    {
+      "id": "evidence_levels",
+      "title": "Что подтверждено, а что нет",
+      "summary": "Разделение фактов, вопросов для проверки и неподтвержденных обвинений."
+    },
+    {
+      "id": "next_steps",
+      "title": "Как проверять дальше",
+      "summary": "Документальная методика: ЕГРЮЛ, ЕИС, контракты, акты и решения органов контроля."
+    },
+    {
+      "id": "sources",
+      "title": "Источники",
+      "summary": "Перечень картографических, реестровых, закупочных и официальных публикаций."
+    },
+    {
+      "id": "conclusion",
+      "title": "Итог",
+      "summary": "Сдержанный вывод о неоднородной территории и границах достоверного анализа."
+    }
+  ]
+}
