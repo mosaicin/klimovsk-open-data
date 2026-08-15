@@ -177,3 +177,39 @@ The relationship between OЦД, ВЕЗУРЕКЛАМУ.РУ and ОЦД-МАРК�
 ВЕЗУРЕКЛАМУ.РУ: ОГРН 1255000003664, ИНН 5074092630, действует с 21.01.2025, директор Кутьев Д.М., учредители Кутьев Д.М. и Попов Д.И. по 50%; адрес Суворова 2И, камеральный корпус. За 2025 год: выручка 94 тыс. руб., прибыль 21 тыс. руб., активы/капитал 121 тыс. руб., госзакупки и арбитраж не найдены.
 
 Промежуточный вывод: пересечение с другими подрядчиками можно корректно искать по конкретным заказчикам, предметам и идентификаторам контрактов в ЕИС; агрегированные счётчики не раскрывают полный список контрагентов в извлечённом бесплатном виде. Общий руководитель/учредитель и адреса подтверждают корпоративную связь, но не доказывают общий земельный актив, незаконность или сговор.
+
+## Глубокая проверка ЕГРЮЛ и ЕИС — промежуточные данные
+
+### Попов Дмитрий Игоревич
+
+Открытая карточка Rusprofile указывает ИНН 502105063703, ОГРНИП 315507400003350, регистрацию ИП 16.03.2015 и участие в ООО «ВЕЗУРЕКЛАМУ.РУ» с 21.01.2025 как учредителя с долей 50%. В ЕГРЮЛ не показаны организации, где Попов является руководителем; отдельно указано, что он зарегистрирован как ИП. Открытые поля не дают оснований публиковать его личные контакты или адрес проживания.
+
+Sources: https://www.rusprofile.ru/person/popov-di-502105063703 ; https://www.audit-it.ru/contragent/fl/502105063703_popov-dmitrii-igorevich
+
+### ОЦД: заказчики и контрактные показатели
+
+Rusprofile's public snippet identifies МУП «СЕЗ» among top customers of ОЦД: 2 purchases for 3,047,668 rubles. Vsem-Podryad's company page states 151 procurement wins totaling 30,616,556.37 rubles, 166 participation records, and notes that the company was included in and later excluded from the RNP on two purchases. This conflicts with other aggregators that show “not currently in RNP”; the distinction is current status versus historical inclusion and must be presented as such.
+
+A fully readable purchase card shows procurement №░░37100009416000░░░, subject “Оказание услуг дезинсекции и дератизации,” customer Kaluga branch of Moscow State University of Railway Engineering, published 15.06.2016, electronic auction under 44-FZ, initial price 58,685.76 rubles, final price 28,000 rubles, winner ООО «Областной центр дезинфекции», winner selected 14.07.2016, contract dated 27.06.2016. Region: Kaluga Oblast. Source: https://vsem-podryad.ru/purchase/0a55ffbc-3c48-49f3-b27f-f3d893dd11bb/
+
+Vsem-Podryad's page states the main counterparty as ПАО «Сбербанк России» in its summary, but the extracted page does not show the full list of customers or the basis for that “main counterparty” label. Do not treat it as a complete ranking without the underlying EIS rows.
+
+### Methodological warning
+
+Different services report different universes: 687 tenders, 254 concluded contracts, 232 44-FZ contracts, 252 procurement records, 151 wins, and 166 participations. These are not additive. A true row-by-row overlap analysis requires export or individual EIS cards with customer INN, procurement ID, subject, price, region, winner and execution status. The currently readable public sample confirms at least one Kaluga Oblast contract and one customer entry for МУП «СЕЗ», but does not yet establish a comprehensive network of overlapping contractors.
+
+## Дополнительные карточки ЕИС
+
+Purchase 73200081220000░░░: customer GКУ «Дирекция заказчика ЖКХиБ ЦАО» / works on recreation areas held by GБУ «Автомобильные дороги ЦАО», Moscow; published 14.02.2020; initial price 360,000 ₽; final price 27,000 ₽; winner OЦД; winner selected 27.02.2020. The card lists participants ООО «ГРИН-ПОЛИС», ООО «СОНЕТ», ООО «ФЕНИКС», ООО «ДЕЗ ГРУПП», ИП Квасюк и ИП Шаронов. This is a documented customer/competitor row with an 92.5% discount from initial to final price.
+
+Purchase 40200003323018░░░: customer Kirov Regional State Institution «Центр по техническому сопровождению государственных закупок», Kirov Oblast; published 20.12.2023; price 64,240 ₽; selected winner is a different company, ООО «Кировский областной центр дезинфекции», not the Podolsk OЦД. This result must not be mistakenly attributed to OЦД despite similar name.
+
+The Rusprofile page used for the OЦД search was misresolved by the extractor to an unrelated ООО «Космо-Мед» page; it should not be used for OЦД statistics unless the URL is checked by INN/title. The correct OЦД data in this batch is from Kontur, T‑Bank, Checko, Vsem-Podryad and the individual purchase cards.
+
+Popov D.I. (INN 502105063703) is shown by Rusprofile as founder of only ООО «ВЕЗУРЕКЛАМУ.РУ» (50%) and as an IP with OGRNIP 315507400003350, registered 16.03.2015; no organizations where he is a director are shown in the public profile.
+
+### Дополнительная карточка ЕИС: Самара
+
+Purchase 42300000120000░░░: customer Department of Finance of Samara City Administration, subject — acaricidal and deratization treatment of public municipal cemeteries; region Samara Oblast; published 06.04.2020; initial price 1,000,000 ₽; final price 189,378.71 ₽; winner ООО «ЗЕЛЁНЫЙ МИР», selected 14.05.2020. ООО «Областной центр дезинфекции» appears among participants, not as winner. Other listed participants include ООО «НПО «ЛЕСНОЕ ОЗЕРО», ООО «ЭПД», ООО НПФ «БИОНАТ», ООО ПБУ «ПДС», ООО «КОМСТРОЙСЕРВИС», ИП Борисов и другие. This is a useful row for competitor analysis, but it is not a contract won by OЦД.
+
+Source: https://vsem-podryad.ru/purchase/070c4661-1d0b-4c10-8523-32d05495fcb5/
