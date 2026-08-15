@@ -80,3 +80,9 @@ Checko reports for ООО «КГБ» that the latest publicly visible accounting
 T-Bank's public contractor profile independently shows 2019 revenue 0 rubles, profit 0 rubles, accounts payable 10.12 million rubles and accounts receivable 3.55 million rubles. It lists five enforcement proceedings, two open, with about 47,683 rubles remaining at the time of the snapshot. Source: https://www.tbank.ru/business/contractor/legal/1145074013413/
 
 The public profiles show no 44-FZ, 94-FZ or 223-FZ procurement participation for ООО «КГБ». Current financial statements after 2019 were not available in the reviewed public pages, so no current revenue estimate should be fabricated.
+
+## Бесплатная кадастровая проверка
+
+Nominatim/OSM resolves Suvorova 2A to a mapped office building (way 484023943), coordinates 55.3606631, 37.4996576, with a nearby taxi/auto-service point named «Престиж». The search for Suvorova 2I returned the Suvorova Street road geometry rather than a distinct building, so OSM does not provide a reliable separate cadastral parcel for 2I. The NSPD map page is interactive and did not yield text through extraction. No free indexed source exposed cadastral numbers or owners for all 2A–2I addresses. This confirms the need to distinguish map address labels from cadastral parcels and ownership.
+
+Free sources checked: https://nominatim.openstreetmap.org/search?format=jsonv2&q=%D0%A1%D1%83%D0%B2%D0%BE%D1%80%D0%BE%D0%B2%D0%B0%202%D0%90%2C%20%D0%9A%D0%BB%D0%B8%D0%BC%D0%BE%D0%B2%D1%81%D0%BA ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=%D0%A1%D1%83%D0%B2%D0%BE%D1%80%D0%BE%D0%B2%D0%B0%202%D0%98%2C%20%D0%9A%D0%BB%D0%B8%D0%BC%D0%BE%D0%B2%D1%81%D0%BA ; https://nspd.gov.ru/map
