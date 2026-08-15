@@ -149,3 +149,19 @@ The public profile also shows current director Артамонов Алексан
 - OЦД founder history: https://www.rusprofile.ru/founders/5844740
 - OЦД history: https://www.rusprofile.ru/history/5844740
 - KГБ public profile: https://checko.ru/company/kgb-1145074013413
+
+## Подробности КАД и связанные компании
+
+### Дело ООО «КГБ» А40-27248/2019
+
+The direct KAD card confirms: plaintiff ООО «НОВОЛЕКС СТРОЙ», defendant ООО «КОРПОРАЦИЯ ГЛОБАЛ БЕТОН», first instance at the Arbitration Court of Moscow. On 11.04.2019 the card records a simplified-procedure decision with the claim satisfied in full. Direct card: https://kad.arbitr.ru/Card/be853e4b-819b-44a6-bd87-d960208e19af. The downloadable resolution is linked from the card. The extracted card does not show the claim amount, so the aggregate 2.1 million rubles from Checko should not be attributed to this individual case without reading the decision PDF.
+
+### ООО «ВЕЗУРЕКЛАМУ.РУ»
+
+OGRN 1255000003664, INN 5074092630, registered 21.01.2025, address Suvorova 2I, chamber building, rooms 1–2, main activity advertising agencies. Authorized capital 100,000 rubles. Current director Кутьев Дмитрий Михайлович. Founders: Кутьев Дмитрий Михайлович 50% and Попов Дмитрий Игоревич 50%. 2025 revenue 94,000 rubles, net profit 21,000 rubles, assets/capital 121,000 rubles, zero employees in the available snapshot. No arbitration cases, no public procurement participation, no RNP entry and no open enforcement proceedings were shown. Source: https://checko.ru/company/vezureklamu-ru-1255000003664
+
+### ООО «ОЦД-МАРКЕТ»
+
+OGRN 1175074003587, INN 5074056751, registered 09.03.2017, address Suvorova 2A, chamber building, main activity retail trade in specialized stores. Authorized capital 10,000 rubles. Current director and sole founder: Кутьев Дмитрий Михайлович, from 09.03.2017. The public profile reports no available revenue or profit for 2024, one employee in 2025, no public procurement participation, no arbitration cases, no open enforcement proceedings and no licenses. It lists 12 activities, including parking operations, transport handling, vehicle trade and disinfection services. Source: https://checko.ru/company/1175074003587
+
+The relationship between OЦД, ВЕЗУРЕКЛАМУ.РУ and ОЦД-МАРКЕТ is documented through the common director/founder Кутьев Дмитрий Михайлович and adjacent chamber-building addresses. The data do not establish common land ownership, common finances, unlawful conduct or a connection to ООО «КГБ».
