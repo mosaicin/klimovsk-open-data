@@ -1,0 +1,17 @@
+{
+  "source_file": "ocd_44fz_verified_sample.csv",
+  "rows_in_source": 4,
+  "rows_with_both_prices": 4,
+  "unique_procurements": 4,
+  "note": "This is the verified sample currently present in the repository, not a complete 232-contract export.",
+  "reduction_pct": {
+    "min": 0.0,
+    "median": 66.6751921384595,
+    "mean": 56.46259606922974,
+    "max": 92.5,
+    "q1": 39.216191457689234,
+    "q3": 83.92159674999999
+  },
+  "contracts_marked_ocd_winner": 3,
+  "contracts_marked_not_ocd_or_other_winner": 1
+}
