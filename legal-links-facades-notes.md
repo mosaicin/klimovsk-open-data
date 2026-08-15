@@ -231,3 +231,23 @@ On 15 August 2026 the browser request to Checko's OЦД page returned HTTP 429 T
 The verified CSV contains three rows involving OЦД and one row involving a different company named ООО «Кировский областной центр дезинфекции». The OЦД rows cover three different regions: Kaluga Oblast, Moscow, and Samara Oblast. Price reductions from initial price to displayed final price are 52.29% (Kaluga), 92.50% (Moscow), and 81.06% (Samara). The fourth Kirov row is not an OЦД row and is excluded from OЦД behavior analysis.
 
 The sample contains one Moscow row only, so it cannot establish repeated participant overlap or a regional rotation pattern. It shows a large price reduction in one competition, which is not by itself a cartel indicator and is inconsistent with a simple “no price competition” hypothesis. A full cartel screen requires all rows, all participant lists, bid timestamps, rejected bids, common technical metadata, and primary EIS documents.
+
+## Полная выгрузка 44-ФЗ: источники и API
+
+The official EIS contract registry states that the system is intended to provide free public access to complete and reliable procurement information. The public contract search supports filtering, but the text-extraction interface did not expose a stable machine-readable result for the supplier query.
+
+The OpenData API documentation at https://ofdata.ru/api/contracts describes a practical machine-readable endpoint: `GET https://api.ofdata.ru/v2/contracts?key=API_KEY&inn=5021001371&law=44&role=supplier&limit=100&page=1&sort=-date`. It returns `data.ЗапВсего`, `data.СтрВсего`, and contract rows with registry number, EIS link, date, execution date, price, customer, suppliers and procurement objects. The service requires an API key and is therefore not an unauthenticated official EIS API; its records are sourced from EIS and should be cross-checked against EIS contract cards.
+
+The Federal Treasury page confirms the official EIS purpose and legal framework: https://roskazna.gov.ru/gis/eis-zakupki-gov-ru.
+
+## РНП: официальная правовая рамка
+
+The official FAS page links the RNP to Article 104 of Federal Law 44-FZ and Government Resolution 1078: https://fas.gov.ru/pages/rnp_reestr. Article 104 states that the register covers participants who evaded contract conclusion and suppliers/contractors who failed to perform or improperly performed contract obligations. The customer submits an appeal; the control authority checks the facts and decides inclusion or refusal, and the public register must be available free of charge. Source: https://www.consultant.ru/document/cons_doc_LAW_144624/8c12a3ec10bf313c4b2fb441eb21b9a04616fd9e/.
+
+An ordinary claim for payment, a commercial dispute, or an arbitration case without evasion, material breach, court termination, or lawful unilateral refusal is not enough by itself to support RNP inclusion.
+
+## Аффилированность с заказчиками: московская карточка
+
+The only Moscow procurement in the verified sample is 0373200081220000058. Public profiles identify the customer as ГКУ «Дирекция ЖКХиБ ЦАО», INN 7701848225, OGRN 1097746517450, registered in Moscow at Novaya Basmannaya 37, building 1; public profiles name Leonov Alexander Gennadievich as head. These details differ from OCD's INN 5021001371, OGRN 1125074004868, Klimovsk address, and Kутьев Dmitry Mikhailovich. No shared address, head, or founder is established by the captured public records. Sources: https://focus.kontur.ru/entity?query=1097746517450 and https://www.rusprofile.ru/id/2345114.
+
+Because the verified sample contains only one Moscow customer, it cannot support a pattern-level conclusion about OCD's relationships with Moscow Region customers. A full customer-by-customer analysis requires the complete EIS export and public EGRUL profiles for every customer.
