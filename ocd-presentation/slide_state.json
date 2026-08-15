@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "title": "ООО «Областной центр дезинфекции»",
+    "created": 1786767785.876,
+    "last_updated": 1786767915.669,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "scope",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "profile",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "finance",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "counters",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "eis_rows",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "competition",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "related",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "evidence",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "sources",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "conclusion",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "ООО «Областной центр дезинфекции»",
+      "summary": "Открытые реестры, закупки 44‑ФЗ и связанные юридические лица. Срез данных на 15 августа 2026 года."
+    },
+    {
+      "id": "scope",
+      "title": "Что именно проверено",
+      "summary": "Источники, границы анализа и ограничение: официальный полный экспорт 232 контрактов не был доступен в текущем интерфейсе."
+    },
+    {
+      "id": "profile",
+      "title": "Профиль ОЦД",
+      "summary": "ИНН, ОГРН, адрес, основной вид деятельности и лицензия.",
+      "image_plan": "/home/ubuntu/upload/Screenshot_2026-08-15-05-23-20-73_3d9111e2d3171bf4882369f490c087b4.webp - Map view of Suvorova 2 area in Klimovsk"
+    },
+    {
+      "id": "finance",
+      "title": "Финансы: выручка восстановилась, прибыль — нет",
+      "summary": "Динамика выручки и чистой прибыли за 2019–2025 годы."
+    },
+    {
+      "id": "counters",
+      "title": "Контрактный портфель: разные счётчики",
+      "summary": "Сравнение публичных агрегаторов и объяснение, почему их показатели нельзя складывать.",
+      "image_plan": "/home/ubuntu/upload/search_images/1wxsn7cYjwNP.webp - School building exterior illustrating school construction project"
+    },
+    {
+      "id": "eis_rows",
+      "title": "ЕИС: четыре проверенные строки",
+      "summary": "Построчная выборка закупок 2016–2023 годов по регионам, заказчикам, ценам и роли ОЦД.",
+      "image_plan": "/home/ubuntu/upload/search_images/lONXeEE4I915.jpg - School building exterior for the second school project on Pobedy street"
+    },
+    {
+      "id": "competition",
+      "title": "Конкурентная среда видна в отдельных карточках",
+      "summary": "Участники московской и самарской закупок и ограничение интерпретации.",
+      "image_plan": "/home/ubuntu/upload/Screenshot_2026-08-15-05-23-41-93_3d9111e2d3171bf4882369f490c087b4.webp - Map showing Kuznechiki territory / area view"
+    },
+    {
+      "id": "related",
+      "title": "Связанные лица по ЕГРЮЛ",
+      "summary": "Кутьев, Попов и три связанные организации по публичным юридическим ролям."
+    },
+    {
+      "id": "evidence",
+      "title": "Что подтверждено, а что открыто",
+      "summary": "Разделение проверенных фактов, неизвестных и следующего шага — полной выгрузки ЕИС."
+    },
+    {
+      "id": "sources",
+      "title": "Источники и методика",
+      "summary": "ЕИС, ФНС, ЕГРЮЛ/ЕГРИП и агрегаторы как вспомогательная перекрёстная проверка."
+    },
+    {
+      "id": "conclusion",
+      "title": "Вывод",
+      "summary": "ОЦД, его финансовая динамика, корпоративные связи и границы доказательности анализа."
+    }
+  ]
+}
