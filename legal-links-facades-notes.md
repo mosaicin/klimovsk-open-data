@@ -213,3 +213,21 @@ Popov D.I. (INN 502105063703) is shown by Rusprofile as founder of only ООО �
 Purchase 42300000120000░░░: customer Department of Finance of Samara City Administration, subject — acaricidal and deratization treatment of public municipal cemeteries; region Samara Oblast; published 06.04.2020; initial price 1,000,000 ₽; final price 189,378.71 ₽; winner ООО «ЗЕЛЁНЫЙ МИР», selected 14.05.2020. ООО «Областной центр дезинфекции» appears among participants, not as winner. Other listed participants include ООО «НПО «ЛЕСНОЕ ОЗЕРО», ООО «ЭПД», ООО НПФ «БИОНАТ», ООО ПБУ «ПДС», ООО «КОМСТРОЙСЕРВИС», ИП Борисов и другие. This is a useful row for competitor analysis, but it is not a contract won by OЦД.
 
 Source: https://vsem-podryad.ru/purchase/070c4661-1d0b-4c10-8523-32d05495fcb5/
+
+## Скрининг картельных признаков — ограничение источника
+
+On 15 August 2026 the browser request to Checko's OЦД page returned HTTP 429 Too Many Requests. Therefore no new fact is inferred from that page in this screening; the analysis relies on previously captured open procurement cards and official/source-linked materials instead.
+
+## Скрининг картельных признаков — официальная рамка ФАС
+
+ФАС России сообщает, что антиконкурентные соглашения часто выявляются в торгах; в 2025 году 91,5% возбужденных дел по признакам ограничивающих конкуренцию соглашений относились к нарушениям на торгах. ФАС также сообщает о риск-ориентированной системе «Антикартель», обрабатывающей торги по множеству критериев. Source: https://fas.gov.ru/news/34333.
+
+В отдельном деле ФАС описывает более сильные доказательные признаки: общий чат/канал координации, договорённости о ценах, участии или неучастии и разделе рынка, а также схожий диапазон средних цен и общую динамику цен. Source: https://fas.gov.ru/news/34472.
+
+Для нашего скрининга это означает, что повторяющиеся участники, одинаковые адреса или резкое снижение цены являются лишь индикаторами для проверки. Они не доказывают картель без дополнительных данных о согласованности воли и действий, цифровых следов, документов закупки или решения ФАС.
+
+## Скрининг картельных признаков — расчёт проверенной выборки
+
+The verified CSV contains three rows involving OЦД and one row involving a different company named ООО «Кировский областной центр дезинфекции». The OЦД rows cover three different regions: Kaluga Oblast, Moscow, and Samara Oblast. Price reductions from initial price to displayed final price are 52.29% (Kaluga), 92.50% (Moscow), and 81.06% (Samara). The fourth Kirov row is not an OЦД row and is excluded from OЦД behavior analysis.
+
+The sample contains one Moscow row only, so it cannot establish repeated participant overlap or a regional rotation pattern. It shows a large price reduction in one competition, which is not by itself a cartel indicator and is inconsistent with a simple “no price competition” hypothesis. A full cartel screen requires all rows, all participant lists, bid timestamps, rejected bids, common technical metadata, and primary EIS documents.
