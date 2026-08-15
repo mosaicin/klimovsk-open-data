@@ -1,0 +1,3 @@
+# Run every 15 minutes. Install with: crontab cron/eis-etl.cron
+# Use an absolute path and a lock so two runs cannot overlap.
+*/15 * * * * flock -n /var/lock/klimovsk-eis-etl.lock env PROJECT_DIR=/opt/klimovsk-open-data DATABASE_URL="$DATABASE_URL" /opt/klimovsk-open-data/run_eis_from_git.sh >> /var/log/klimovsk-eis-etl.log 2>&1
